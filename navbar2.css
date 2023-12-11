@@ -1,0 +1,275 @@
+.carousel-caption {
+    margin-left: -313px;
+    margin-bottom: 103px;
+    flex-wrap: wrap;
+    font-family: 'Inter', sans-serif;
+}
+
+.carousel-caption h1 {
+    font-size: 40px;
+}
+
+.carousel-caption p {
+    padding: 10px;
+}
+
+.slider-btn button {
+    background-color: rgb(89, 19, 156);
+    border: none;
+    height: 45px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 24px;
+    font-family: 'Inter', sans-serif;
+}
+
+.slider-btn button:hover {
+    background-color: rgb(107, 60, 150);
+}
+
+@media(max-width:755px) {
+    .carousel-caption {
+        margin-left: -34px;
+        margin-bottom: 11px;
+
+    }
+}
+
+
+@media(max-width:402px) {
+    .img1 {
+        width: 149px;
+        height: 60px;
+        margin-left: 18px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 25px;
+    }
+
+    .slider-btn button {
+        height: 30px;
+        width: 90px;
+        font-size: 10px;
+
+    }
+
+    .carousel-caption p {
+        font-size: 15px;
+    }
+
+    .carousel-caption {
+        margin-left: -10px;
+        margin-bottom: 61px;
+
+    }
+}
+
+
+.topbar {
+    background-color: #5e068a;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+}
+
+.topbar p{
+    
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+select {
+    width: 100%;
+}
+
+#btntrig {
+    background-color: rgb(89, 19, 156);
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-size: small;
+    margin: 1%;
+    font-family: 'Inter', sans-serif;
+}
+
+#btntrig:hover {
+    background-color: white;
+    color: rgb(89, 19, 156);
+    border: solid rgb(89, 19, 156);
+    transition: all 0.3s ease-in-out;
+}
+
+#learnbtn {
+    background-color: rgb(89, 19, 156);
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-size: small;
+    margin-top: 1%;
+    font-family: 'Inter', sans-serif;
+}
+
+#learnbtn:hover {
+    background-color: white;
+    color: rgb(89, 19, 156);
+    border: solid rgb(89, 19, 156);
+    transition: all 0.3s ease-in-out;
+
+}
+
+#row1 {
+    margin-left: 10%;
+    margin-top: 10%;
+    font-family: 'Inter', sans-serif;
+}
+
+.cola h2 {
+    color: rgb(89, 19, 156);
+}
+
+.cola h5 {
+    color: #5e068a99;
+}
+
+.cola p{
+    line-height: 30px;
+}
+
+.hd {
+    color: #5e068a;
+}
+
+.hd span {
+    color: #9e6ab9;
+}
+
+
+
+#row2 {
+    margin-left: 6%;
+    margin-top: 2%;
+    font-family: 'Inter', sans-serif;
+}
+
+#row2 h5 {
+    color: #5e068a;
+}
+
+#row2:hover {
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+#row3 {
+    margin-left: 6%;
+    margin-top: 1%;
+    font-family: 'Inter', sans-serif;
+}
+
+
+#btn1 {
+    border-radius: 0px 0px 0px 0px;
+    background-color: #5e068a;
+    width: 135px;
+}
+
+#btn2 {
+    border-radius: 0px 0px 0px 0px;
+    background-color: #5e068a;
+    width: 135px;
+
+}
+
+#btn3 {
+    border-radius: 0px 0px 0px 0px;
+    background-color: #5e068a;
+    width: 135px;
+
+}
+
+#btn4 {
+    border-radius: 0px 0px 0px 0px;
+    background-color: #5e068a;
+    width: 135px;
+
+}
+
+#row3 h5 {
+    color: #5e068a;
+}
+
+.c:hover {
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#btnlast {
+    background-color: #ffffff;
+    color: rgb(226, 108, 6);
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid #5e068a;
+    font-size: small;
+    margin-top: 1%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+
+
+}
+
+
+#btnlast:hover {
+    background-color: #5e068a;
+    color: white;
+    font-weight: 700;
+}
+
+
+@media(max-width:576px) {
+    #row2 {
+        margin-left: 1%;
+    }
+
+    #row3 {
+        margin-left: -1%;
+    }
+}
+
+
+@media(max-width:1200px){
+    .carousel-caption {
+        margin-left: -34px;
+        margin-bottom: 37px;
+
+    }
+
+}
+
+
+@media(max-width:290px){
+    .cola h5 {
+        font-size: 10px;
+    }
+    
+}
+
+
+@media(max-width:725px){
+    .topbar p{
+        font-size: 5px;
+    }
+}
